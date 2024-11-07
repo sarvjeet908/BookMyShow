@@ -3,13 +3,12 @@ package com.example.bms.models;
 import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.List;
-
 @Entity
 @Getter
 @Setter
-public class Region extends BaseModel{
+public class Screen extends BaseModel {
     private String name;
-    private List<Theatre> theatres;
+    private List<Seat> seats;
+    private List<Feature> Features;
 }

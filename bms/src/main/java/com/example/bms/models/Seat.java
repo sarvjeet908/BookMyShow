@@ -4,12 +4,12 @@ import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.List;
-
 @Entity
 @Getter
 @Setter
-public class Region extends BaseModel{
-    private String name;
-    private List<Theatre> theatres;
+public class Seat extends BaseModel{
+    private int number;
+    private String seatType;
+    private int row;
+    private int col;
 }

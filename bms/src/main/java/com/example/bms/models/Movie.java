@@ -2,14 +2,13 @@ package com.example.bms.models;
 
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
 
 
 @Getter
 @Setter
-@Entity
+@Entity(name ="movies")
 public class Movie extends BaseModel {
 
     private String name;

@@ -18,7 +18,7 @@ public class ShowSeat extends BaseModel{
     2 | A1 |Booked
     */
     @ManyToOne
-    private Show show;
+    private Show sshow;
     /*
       showseat   seat
       1            1

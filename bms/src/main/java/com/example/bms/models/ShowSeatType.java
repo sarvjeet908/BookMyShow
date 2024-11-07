@@ -13,7 +13,7 @@ public class ShowSeatType extends BaseModel{
       */
 
     @ManyToMany
-    private Show show;
+    private Show showw;
     private String seatType;
     private int price;
 }

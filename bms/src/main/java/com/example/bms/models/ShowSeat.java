@@ -11,7 +11,6 @@ import lombok.Setter;
 public class ShowSeat extends BaseModel{
 
     private Show show;
-    @OneToMany
     private Seat seat;
     private SeatStatus seatStatus;
 }

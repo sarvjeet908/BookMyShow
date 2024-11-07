@@ -10,6 +10,3 @@ public class BookResponseDto {
     private int amount;
     private BookingResponseStatus bookingResponseStatus;
 }
-enum BookingResponseStatus{
-    SUCCESS,FAILURE
-}

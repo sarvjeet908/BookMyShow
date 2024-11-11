@@ -6,7 +6,7 @@ import lombok.Setter;
 
 import java.util.Date;
 
-@Entity
+@Entity(name = "show_name")
 @Getter
 @Setter
 public class Show extends BaseModel{

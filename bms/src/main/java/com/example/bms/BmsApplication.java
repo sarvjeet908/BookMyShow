@@ -26,12 +26,14 @@ public class BmsApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		SignupRequestDTO request=new SignupRequestDTO();
 
-		request.setEmail("sarvjeet908@gmail.com");
-		request.setName("Streetcar");
+		request.setEmail("user@gmail.com");
+		request.setName("Govind809");
 		request.setPhoneNumber("7619390236");
-		request.setPassWord("streetcar908");
+		request.setPassWord("password");
 
-		userController.signUp(request);
+		//userController.signUp(request);
+
+		userController.login("user@gmail.com","password");
 
 	}
 }
